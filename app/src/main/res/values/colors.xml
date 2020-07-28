@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="fbcolor">#0D47A1</color>
+    <color name="gglcolor">#E8FF4444</color>
+    <color name="backgroundopacity">#F57F17</color>
+    <color name="startcolorgradient">#BF360C</color>
+    <color name="fbbackgroundcolor">#0D25BC</color>
+    <color name="gglbackgrouncolor">#DD6843</color>
+</resources>

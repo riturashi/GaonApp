@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KanyaUthanYojna">
+
+
+    <include
+        layout="@layout/mytoolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:text="बमुख्यमंत्री कन्या उत्थान योजना"
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:text="@string/kanyauthan"
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+        <ImageView
+            android:src="@drawable/kanyauthan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ImageView>
+        <TextView
+            android:text="@string/kanyauthan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Suchi">
+
+    <include
+        layout="@layout/mytoolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"></include>
+
+
+
+    <Button
+        android:background="@color/gglcolor"
+        android:text="Manrega karya diwas ki suchi"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_nrega"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:background="@color/gglcolor"
+        android:text="Rashan kard ki suchi"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnrasnsuchi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+
+
+    <Button
+        android:background="@color/gglcolor"
+        android:text="BPL/APL Suchi"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnAplBplSuchi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+
+    <Button
+        android:background="@color/gglcolor"
+        android:text="Matdata Suchi"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnmatdatasuchi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+
+
+</LinearLayout>

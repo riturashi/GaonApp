@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GramPariwahanyojna">
+
+    <include
+        layout="@layout/mytoolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="बिहार मुख्यमंत्री ग्राम परिवहन योजना 2020"
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:src="@drawable/grampariwan"
+                android:id="@+id/iv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></ImageView>
+
+        <TextView
+            android:text="@string/tv2content"
+            android:id="@+id/tvcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <Button
+            android:textColor="#FCFCFD"
+            android:background="#E81515"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/btnpariwahan"
+            android:text="Aplly Online"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

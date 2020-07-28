@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GramBharWarshik">
+
+    <include
+        layout="@layout/mytoolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"></include>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:entries="@array/district_array"
+            android:prompt="@string/District_List"
+            android:id="@+id/spnrDistrict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.toptoche.searchablespinnerlibrary.SearchableSpinner>
+
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:layout_marginTop="40dp"
+            android:id="@+id/spnrsubdvsn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.toptoche.searchablespinnerlibrary.SearchableSpinner>
+
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:layout_marginTop="40dp"
+            android:id="@+id/spnrblock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.toptoche.searchablespinnerlibrary.SearchableSpinner>
+
+
+        <Button
+            android:text="Go"
+            android:id="@+id/go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+</LinearLayout>

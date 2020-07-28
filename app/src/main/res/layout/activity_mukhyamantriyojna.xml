@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Mukhyamantriyojna">
+
+    <include
+        layout="@layout/mytoolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"></include>
+
+      <LinearLayout
+          android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:text="मुख्यमंत्री ग्राम परिवहन योजना "
+        android:id="@+id/mukyojna1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:text="मुख्यमंत्री कन्या उत्थान योजना"
+        android:id="@+id/mukyojna2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+      </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:text="मुख्यमंत्री अनुसूचित जाति/अनुसूचित जनजाति/अति पिछड़ा वर्ग उद्यमी योजना"
+        android:id="@+id/mukyojna3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>

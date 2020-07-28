@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
+    tools:context=".LogInActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp">
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_width="150dp"
+            android:layout_height="100dp"></ImageView>
+
+        <TextView
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Welcome to Humara Gaon"
+            android:textSize="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinput1"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email_edt"
+                android:hint="EmailID/MobileNo"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:passwordToggleEnabled="true"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/textinput1"
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pass_edt"
+                android:hint="Enter your password"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/frgtpswrd"
+            android:layout_marginRight="35dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Forgot Password"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:background="@drawable/button"
+            android:layout_marginTop="20dp"
+            android:textColor="#2E532F"
+            android:text="LOGIN"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></Button>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.gms.common.SignInButton
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/sign_in_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </com.google.android.gms.common.SignInButton>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_gravity="right"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:id="@+id/tvregister"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="Dont have an Account?Register here"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <Button
+            android:id="@+id/btnguest"
+            android:background="@drawable/button"
+            android:layout_marginTop="20dp"
+            android:textColor="#2E532F"
+            android:text="Continue as a GUEST"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></Button>
+
+    </LinearLayout>
+
+</RelativeLayout>

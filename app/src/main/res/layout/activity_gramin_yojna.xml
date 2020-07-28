@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".GraminYojna">
+
+
+    <include
+        layout="@layout/mytoolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"></include>
+
+
+    <Button
+        android:background="#E47C12"
+        android:text="Pradhan Mantri Yojna"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_prdhnmntri"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:background="#E47C12"
+        android:text="MukhyaMantri Yojna"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnmukhymntri"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+
+
+    <Button
+        android:background="#E47C12"
+        android:text="Sauchalya Yojna"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnSauchalya"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+
+    <Button
+        android:background="#E47C12"
+        android:text="SwachBharat Yojna"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnSwachbhrt"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:background="#E47C12"
+        android:text="Ujjwal Yojna"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnujwal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+</LinearLayout>

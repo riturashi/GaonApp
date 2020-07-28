@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ComplainSuggestion">
+
+
+    <include
+        layout="@layout/mytoolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"></include>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/dm1"
+        android:id="@+id/imgv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"></ImageView>
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:text="Sri Kumar Ravi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:text="District Magistrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:text="dm-patna.bih@nic.in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:text="0612 – 2219545(O)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:text="0612 – 2219097 (R)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:text="0612 – 2219383 (R)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <Button
+                android:background="#72D61A"
+                android:id="@+id/btncl"
+                android:text="Call Now"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Button>
+
+
+    <Button
+        android:layout_marginLeft="20dp"
+        android:background="#72D61A"
+        android:id="@+id/btnemail"
+        android:text="Email"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+
+</LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

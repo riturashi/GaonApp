@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "336817126709",
+    "firebase_url": "https://humaragaon-a9491.firebaseio.com",
+    "project_id": "humaragaon-a9491",
+    "storage_bucket": "humaragaon-a9491.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336817126709:android:703461ebd164cc7739207c",
+        "android_client_info": {
+          "package_name": "com.example.humaraGaon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336817126709-lr91e1voab08jtmoi804kb11kv6sjh4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD3zGulppdIHE2TWB2a35HQlpzj7XTHKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336817126709-lr91e1voab08jtmoi804kb11kv6sjh4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

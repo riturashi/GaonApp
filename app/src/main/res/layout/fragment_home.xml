@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+
+    <ScrollView
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:background="@drawable/a"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="215dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card1"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:id="@+id/imageview1"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/gharshiv"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"></ImageView>
+
+                                <TextView
+                                    android:id="@+id/textVgaon1"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imageview1"
+                                    android:text="हमारा ग्रामीण बिहार"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"></TextView>
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card2"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:id="@+id/imageview2"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/eye"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"></ImageView>
+
+                                <TextView
+                                    android:id="@+id/textVgaon2"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imageview2"
+                                    android:text="ग्रामीण भारत-महात्मा गाँधी"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"></TextView>
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card3"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:id="@+id/imageview3"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/briefcase"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"></ImageView>
+
+                                <TextView
+                                    android:id="@+id/textVgaon3"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imageview3"
+                                    android:text="ग्रामीण भारत का वार्षिक"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"></TextView>
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card4"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:id="@+id/imageview4"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/notes"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"></ImageView>
+
+                                <TextView
+                                    android:id="@+id/textVgaon4"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imageview4"
+                                    android:text="सूचि"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"></TextView>
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card5"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:id="@+id/imageview5"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/calendar"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"></ImageView>
+
+                                <TextView
+                                    android:id="@+id/textVgaon5"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imageview5"
+                                    android:text="ग्रामीण योजना"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"></TextView>
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card6"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:id="@+id/imageview6"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/multipleshivgo"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"></ImageView>
+
+                                <TextView
+                                    android:id="@+id/textVgaon6"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imageview6"
+                                    android:text="जनगणना 2011"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"></TextView>
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card7"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:id="@+id/imageview7"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/editshivgo"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"></ImageView>
+
+                                <TextView
+                                    android:id="@+id/textVgaon7"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imageview7"
+                                    android:text="सूचना का अधिकार"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"></TextView>
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card8"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:id="@+id/imageview8"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/emailshivgo"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"></ImageView>
+
+                                <TextView
+                                    android:id="@+id/textVgaon8"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imageview8"
+                                    android:text="शिकायत/सुझाव"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"></TextView>
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
